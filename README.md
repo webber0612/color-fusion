@@ -11,6 +11,19 @@ I wanted to share a few real prints and show how the project is evolving.
 
 ---
 
+## Update — October 22, 2026
+
+Still going! The last two weeks were mostly about one question: **how do we turn a picture into colour areas that print cleanly?**
+
+- **Cleaner prints.** On a detailed anime-style test illustration, switching to cleaner vector colour areas cut the number of tiny "islands" (the little patches a printer has to start and stop on every layer) by **58%**, and the dark ones by **42%**. Streaks and dark specks on light surfaces dropped a lot, and 7 ordinary PLA spools still matched the skin, hair, gold trim and gem colours well.
+- **New: printability optimisation (in testing).** Neighbouring areas that look alike now share the same hidden lower layers. In the preview the picture looks the same (average colour change under 1 ΔE), yet islands drop by another **28%** and dark islands by **55%**. It has an adjustable strength, can be switched off, and marks what it changed. A test print is on the bed right now.
+- **Colour separation research.** I compared several open-source vectorizers and added a fidelity check that confirms the traced shapes really match the separation. The built-in separator now has smooth curved boundaries and merges fragments while keeping small features such as pupils. It's improving but not yet as polished as dedicated vector tools, so for now vector (SVG) artwork gives the best results.
+- **SpoolCard library.** Over 50 spools have been scanned with SpoolCard v3.1 (six cards per plate, one photo each, with a printed filament code on every card).
+
+**Next:** confirm the optimisation on real prints, make the preview show what will actually print (so you can decide whether a hair-thin line is worth keeping), and test a clear top layer with ironing for a smoother finish.
+
+---
+
 ## 1. Digital Artwork vs. Latest Real Print
 
 Here is a recent 180 mm × 180 mm test print fresh off the print bed:
