@@ -11,6 +11,41 @@ I wanted to share a few real prints and show how the project is evolving.
 
 ---
 
+## Update — October 24, 2026
+
+A new test print: a 240 × 180 mm anime-style landscape with cherry blossoms, a torii gate and a sunset harbour.
+
+![Latest print — cherry blossoms at sunset](images/t03-print.jpg)
+
+| Original Artwork | Color Fusion Preview | Real Print |
+| :---: | :---: | :---: |
+| ![Original](images/t03-original.jpg) | ![Preview](images/t03-preview.jpg) | ![Print](images/t03-print.jpg) |
+
+- **A clear top layer with ironing.** The last 0.08 mm layer is clear PLA, ironed smooth. It gives the surface a soft gloss and makes the colours look deeper. The preview now accounts for it.
+- **Clear filament in the mix.** Clear PLA has its own SpoolCard (matte and ironed versions) and can be used as one of the stacked layers to dilute a colour.
+- **The preview matched the print.** Comparing a photo of the print with the preview, brightness in most areas differed by only a few points (on a 0–100 scale; the sky came out a little brighter), and the shaded stone steps kept their detail.
+- **Printability optimisation, now in use.** On this print it cut the small "islands" from about 20,900 to 14,700 (−30%).
+
+**One thing I learned:** a print can look darker in the hand than on screen. A screen gives off its own light; a print only reflects the light in the room. A photo, or good lighting on the wall, makes it look much closer to the preview.
+
+### Print Details
+- **Printer:** Bambu Lab P1S with 2 × AMS (8 filament slots)
+- **Size:** 240 mm × 180 mm × 1.08 mm
+- **Layers:** 0.6 mm white base, five 0.08 mm colour layers, one 0.08 mm clear top layer (ironed)
+- **Filaments (7 colours + clear PLA):**
+  1. `Bambu Lab PLA Basic Jade White` (base)
+  2. `Bambu Lab PLA Lite Black`
+  3. `eSun PLA+ Pink`
+  4. `Bambu Lab PLA Basic Orange`
+  5. `eSun PLA+ Blue`
+  6. `Bambu Lab PLA Basic Blue Gray`
+  7. `Polymaker Panchroma Matte Pastel Banana`
+  8. `FULABS PLA Transparent` (clear top layer)
+
+**Next:** a simple brightness (EV) control so you can make a print brighter or darker before separating the colours, and packaging the workflow into a simple web tool.
+
+---
+
 ## Update — October 22, 2026
 
 Still going! The last two weeks were mostly about one question: **how do we turn a picture into colour areas that print cleanly?**
@@ -97,7 +132,7 @@ Each card tests stepped transmission depths from 0.08 mm to 2.0 mm over black an
 
 This is an active, honest experiment. Here are a few things I'm still figuring out:
 
-- **Shadow Tones:** Stacking multiple rich pigments tends to absorb slightly more light than simulated, making deep water and shaded hills print a bit darker than expected.
+- **Shadow Tones:** Very dark pictures are hard: the darkest printable black still reflects a little light, so the deepest shadows can merge together. A brightness control is on the way.
 - **Nozzle Purge Volumes:** Extruder flushing is critical. If the nozzle doesn't fully purge rich red or magenta before extruding white, you get an unintended pinkish tint!
 - **Filament Brand Variations:** Every brand's "Yellow" or "Cyan" has unique pigment density and opacity, which is why scanning quick SpoolCards is essential.
 
