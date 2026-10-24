@@ -23,7 +23,7 @@ A new test print: a 240 × 180 mm anime-style landscape with cherry blossoms, a 
 | :---: | :---: | :---: | :---: |
 | ![Original](images/t03-original.jpg) | ![Vector trace](images/t03-vector.jpg) | ![Preview](images/t03-preview.jpg) | ![Print](images/t03-print.jpg) |
 
-*How this one was made:* the artwork was first traced into flat vector colour areas in Adobe Illustrator (Image Trace). Color Fusion then took the SVG, picked the filaments, worked out the layer recipes, reduced small islands and produced the 3MF. Color Fusion's own colour separation is still being improved, so for now a vector trace gives the cleanest result.
+*How this one was made:* the artwork was first traced into flat vector colour areas with a vector editor. Color Fusion then took the SVG, picked the filaments, worked out the layer recipes, reduced small islands and produced the 3MF. Color Fusion's own colour separation is still being improved, so for now a vector trace gives the cleanest result.
 
 - **A clear top layer with ironing.** The last 0.08 mm layer is clear PLA, ironed smooth. It gives the surface a soft gloss and makes the colours look deeper. The preview now accounts for it.
 - **Clear filament in the mix.** Clear PLA has its own SpoolCard (matte and ironed versions) and can be used as one of the stacked layers to dilute a colour.
