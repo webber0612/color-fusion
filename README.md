@@ -17,6 +17,8 @@ A new test print: a 240 × 180 mm anime-style landscape with cherry blossoms, a 
 
 ![Latest print — cherry blossoms at sunset](images/t03-print.jpg)
 
+📥 **[Download the 3MF on MakerWorld](https://makerworld.com/en/models/3485087-color-fusion-sunset-shrine-picture)** to print it yourself.
+
 | Original Artwork | Color Fusion Preview | Real Print |
 | :---: | :---: | :---: |
 | ![Original](images/t03-original.jpg) | ![Preview](images/t03-preview.jpg) | ![Print](images/t03-print.jpg) |
