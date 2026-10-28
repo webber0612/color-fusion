@@ -1,10 +1,17 @@
-# Color Fusion
-### Turn Any Image into Full-Color 3D Prints with Ordinary PLA
+<div align="center">
+  <img src="images/logo.png" alt="Color Fusion Logo" width="128" />
+  <h1>Color Fusion Studio</h1>
+  <p><strong>Turn Any Image into Full-Color 3D Prints with Ordinary PLA</strong></p>
+  <p>
+    <a href="https://colorfusion.pegcanvas.com"><strong>🚀 Launch Web App (colorfusion.pegcanvas.com)</strong></a> · 
+    <a href="#-license--flexible-commercial-policy">Commercial Policy</a> · 
+    <a href="https://studio.pegcanvas.com">Alternative Mirror</a>
+  </p>
+</div>
 
 > 🎉 **Color Fusion Studio V1.0 is officially LIVE!**  
-> 🌐 **Launch the Web App directly in your browser:**  
-> 👉 **[https://colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com)** *(or [https://studio.pegcanvas.com](https://studio.pegcanvas.com))*  
-> *Free to use · No installation · No sign-in · 100% local processing · Commercial use welcomed*
+> 🌐 **Launch directly in your browser:** 👉 **[https://colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com)**  
+> *Free to use · Closed-source web app · 100% local processing · Flexible commercial rights*
 
 ---
 
