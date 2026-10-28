@@ -1,19 +1,44 @@
 # Color Fusion
-### Early Experiments in FDM Color Mixing
+### Turn Any Image into Full-Color 3D Prints with Ordinary PLA
 
-I'm experimenting with a way to create colorful FDM prints using ordinary PLA filaments stacked in thin layers.
+> 🎉 **Color Fusion Studio V1.0 is officially LIVE!**  
+> 🌐 **Launch the Web App directly in your browser:**  
+> 👉 **[https://colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com)** *(or [https://studio.pegcanvas.com](https://studio.pegcanvas.com))*  
+> *Free to use · No installation · No sign-in · 100% local processing · Commercial use welcomed*
 
-It's still a work in progress. Some colors look surprisingly good, while others are noticeably off.
+---
 
-I wanted to share a few real prints and show how the project is evolving.
+## ⚡ What is Color Fusion Studio?
+
+**Color Fusion Studio** is a browser-based tool that transforms ordinary 2D artwork, photos, and vector graphics into vibrant, full-color 3D prints. By stacking thin 0.08 mm layers of ordinary PLA filaments, it produces smooth continuous gradients and rich palettes on standard FDM printers equipped with multi-material systems (such as Bambu Lab P1S/X1C + AMS).
+
+### 🌟 Highlights & Features
+- **100% Free & In-Browser**: No signup required, no subscriptions, no software downloads. All optical color blending, rasterization, and 3MF packaging run 100% locally on your computer using WebAssembly and Web Workers. Your images never touch a cloud server.
+- **💼 Commercial Use Welcomed**: All 3MF files and physical prints created with Color Fusion Studio belong 100% to you. Feel free to sell finished prints at markets, Etsy, or MakerWorld.
+- **🎯 Step-by-Step Onboarding Tour**: Built-in interactive walkthrough with animated pointer arrows to guide you through your very first print in minutes.
+- **🎨 Smart Mixing & Filament Matching**: Automatically calculates the best 5-layer optical recipe based on the PLA spools you currently own.
+- **🧪 SpoolCard Calibration**: Calibrate your own filament spools! Print a single SpoolCard v3.1 coupon, take a photo, and the optical solver measures its exact transmission and opacity values.
+- **🖨️ One-Click Bambu Studio 3MF Export**: Generates production-ready 3MF project packages with exact layer heights, filament slots, and print settings. Open in Bambu Studio and click print.
+
+### 📜 License & Usage Policy
+1. **The Software & Engine**: Free to use as a web service (closed-source). Unauthorized mirroring, scraping, or reverse engineering of the optical algorithms is prohibited.
+2. **Your Designs & Physical Prints**: **100% Royalty-Free & Commercial Use Welcomed.** All 3MF projects and physical prints you make belong to you. You are welcome to sell them commercially.
+3. **Your Source Images**: You retain full ownership and copyright of the artwork and photos you import. Please ensure you have the rights to reproduce the images you print.
+
+---
 
 📄 **[View or Download the 3-Page Early Preview PDF](Color_Fusion_Early_Preview.pdf)**
 
 ---
 
+## Update — October 28, 2026: V1.0 Release
+Color Fusion Studio V1.0 is now available online at [colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com) with bilingual support (繁體中文 / English), interactive canvas editing, island printability optimization, and one-click Bambu Studio 3MF export.
+
+---
+
 ## Update — October 24, 2026
 
-A new test print: a 240 × 180 mm anime-style landscape with cherry blossoms, a torii gate and a sunset harbour.
+A test print: a 240 × 180 mm anime-style landscape with cherry blossoms, a torii gate and a sunset harbour.
 
 ![Latest print — cherry blossoms at sunset](images/t03-print.jpg)
 
@@ -46,8 +71,6 @@ A new test print: a 240 × 180 mm anime-style landscape with cherry blossoms, a 
   7. `Polymaker Panchroma Matte Pastel Banana`
   8. `FULABS PLA Transparent` (clear top layer)
 
-**Next:** a simple brightness (EV) control so you can make a print brighter or darker before separating the colours, and packaging the workflow into a simple web tool.
-
 ---
 
 ## Update — October 22, 2026
@@ -58,8 +81,6 @@ Still going! The last two weeks were mostly about one question: **how do we turn
 - **New: printability optimisation (in testing).** Neighbouring areas that look alike now share the same hidden lower layers. In the preview the picture looks the same (average colour change under 1 ΔE), yet islands drop by another **28%** and dark islands by **55%**. It has an adjustable strength, can be switched off, and marks what it changed. A test print is on the bed right now.
 - **Colour separation research.** I compared several open-source vectorizers and added a fidelity check that confirms the traced shapes really match the separation. The built-in separator now has smooth curved boundaries and merges fragments while keeping small features such as pupils. It's improving but not yet as polished as dedicated vector tools, so for now vector (SVG) artwork gives the best results.
 - **SpoolCard library.** Over 50 spools have been scanned with SpoolCard v3.1 (six cards per plate, one photo each, with a printed filament code on every card).
-
-**Next:** confirm the optimisation on real prints, make the preview show what will actually print (so you can decide whether a hair-thin line is worth keeping), and test a clear top layer with ironing for a smoother finish.
 
 ---
 
@@ -147,11 +168,11 @@ This is an active, honest experiment. Here are a few things I'm still figuring o
 I'm actively refining the algorithm and would love to hear from other 3D printing enthusiasts:
 
 - What do you think of this approach to FDM color blending?
-- **I'm considering sharing some test 3MF files down the road** if community members with AMS or multi-material setups are interested in test-printing on their own machines!
+- Try out the web tool at **[colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com)** and let me know your thoughts!
 - What image styles, palettes, or filament brands would you be most excited to see tested next?
 
 Feel free to open an Issue or Discussion on this repository to share your thoughts, ideas, or questions!
 
 ---
 
-> **Note**: This repository currently contains project previews and experimental results, not the Color Fusion Engine source code. Source-code and commercial licensing plans have not yet been finalized.
+> **Note**: This repository contains project announcements, documentation, and experimental results. The Color Fusion Engine runs as a web service at [colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com) and is closed-source.
