@@ -63,6 +63,15 @@ The SpoolCard library and a 1,024-colour test grid used to tune the colour model
 | :---: | :---: |
 | ![SpoolCards](images/spool-cards.png) | ![1,024-colour grid](images/color-benchmark.png) |
 
+## Print them yourself on MakerWorld
+
+Free models made with Color Fusion, ready to print:
+
+- 🌅 [Color Fusion: Sunset Shrine Picture](https://makerworld.com/en/models/3485087-color-fusion-sunset-shrine-picture), the 240 × 180 mm print in the gallery above.
+- 🧝 [PegCanvas: Frieren Color Fusion Picture](https://makerworld.com/en/models/3501512-pegcanvas-frieren-color-fusion-picture)
+
+More models on [my MakerWorld page](https://makerworld.com/en/@user_3932360276/upload).
+
 ## What you need
 
 - A multi-colour FDM printer, such as a Bambu Lab printer with AMS.
