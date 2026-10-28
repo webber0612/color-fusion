@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### October 29, 2026: 3MF slicing precision & Studio polish (V1.0.1)
+Fixed a critical variable layer-height transition in exported Bambu Studio 3MF files, ensuring 0.2 mm base + 0.08 mm color layers slice cleanly and print reliably. Enhanced regional FOCUS color weighting and updated UI layout.
+
 ### October 28, 2026: V1.0 released
 Color Fusion Studio V1.0 is live at [colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com), in English and 繁體中文, with canvas editing, printability optimisation and one-click Bambu Studio export.
 
