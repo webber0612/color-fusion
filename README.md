@@ -16,14 +16,17 @@
 - **100% Free & In-Browser**: No signup required, no subscriptions, no software downloads. All optical color blending, rasterization, and 3MF packaging run 100% locally on your computer using WebAssembly and Web Workers. Your images never touch a cloud server.
 - **💼 Commercial Use Welcomed**: All 3MF files and physical prints created with Color Fusion Studio belong 100% to you. Feel free to sell finished prints at markets, Etsy, or MakerWorld.
 - **🎯 Step-by-Step Onboarding Tour**: Built-in interactive walkthrough with animated pointer arrows to guide you through your very first print in minutes.
-- **🎨 Smart Mixing & Filament Matching**: Automatically calculates the best 5-layer optical recipe based on the PLA spools you currently own.
+- **🎨 Smart Mixing up to 64 Colors MAX**: Automatically calculates the best 5-layer optical recipe based on the PLA spools you currently own. Supports rich palettes up to 64 colors across multi-plate workflows.
 - **🧪 SpoolCard Calibration**: Calibrate your own filament spools! Print a single SpoolCard v3.1 coupon, take a photo, and the optical solver measures its exact transmission and opacity values.
 - **🖨️ One-Click Bambu Studio 3MF Export**: Generates production-ready 3MF project packages with exact layer heights, filament slots, and print settings. Open in Bambu Studio and click print.
 
-### 📜 License & Usage Policy
+### 📜 License & Flexible Commercial Policy
 1. **The Software & Engine**: Free to use as a web service (closed-source). Unauthorized mirroring, scraping, or reverse engineering of the optical algorithms is prohibited.
-2. **Your Designs & Physical Prints**: **100% Royalty-Free & Commercial Use Welcomed.** All 3MF projects and physical prints you make belong to you. You are welcome to sell them commercially.
-3. **Your Source Images**: You retain full ownership and copyright of the artwork and photos you import. Please ensure you have the rights to reproduce the images you print.
+2. **Your Full Ownership & Open Commercial Rights**: 
+   - **Formulas, 3MF Files & Physical Prints**: All optical blending recipes, generated 3MF files, and physical 3D prints produced by Color Fusion Studio belong **100% to YOU (the user)**. Color Fusion claims **zero ownership and zero royalties**.
+   - **Freedom to Share & Monetize**: You have complete freedom to distribute, share, publish, or commercially sell your physical prints and 3MF files anywhere (Etsy, MakerWorld, Printables, local fairs, etc.).
+3. **Your Source Images**: You retain full ownership of the images you import. You are responsible for ensuring you have the appropriate rights to reproduce the designs.
+4. **Future Terms**: Color Fusion Studio V1.0 core functionality is free to use. We reserve the right to introduce optional advanced features or update future terms of service as the platform evolves.
 
 ---
 
