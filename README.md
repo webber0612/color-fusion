@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 2, 2026: Mode A, printed colours & RGB filament list (V1.0.2)
+Exported 3MF files now use each spool's measured printed colour. The filament list gives RGB values you can type straight into Bambu Studio. Adds optional Mode A colour selection, a crop-and-resize-canvas button, a finer detail control and a fix for the base spool being swapped.
+
 ### October 29, 2026: 3MF slicing precision & Studio polish (V1.0.1)
 Fixed a critical variable layer-height transition in exported Bambu Studio 3MF files, ensuring 0.2 mm base + 0.08 mm color layers slice cleanly and print reliably. Enhanced regional FOCUS color weighting and updated UI layout.
 
