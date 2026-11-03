@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 3, 2026: Import & export your colour profiles, cleaner crop edges (V1.0.3)
+My Filaments now has import and export buttons for your colour profile files (.json), so you can back up your calibrations or move them to another computer. Cropping an image to the board size no longer leaves a thin white line along the edge of the print.
+
 ### November 2, 2026: Mode A, printed colours & RGB filament list (V1.0.2)
 Exported 3MF files now use each spool's measured printed colour. The filament list gives RGB values you can type straight into Bambu Studio. Adds optional Mode A colour selection, a crop-and-resize-canvas button, a finer detail control and a fix for the base spool being swapped.
 
