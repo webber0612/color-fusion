@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 9, 2026: Two-sided prints, face-down printing & silhouette cards (V1.1.0)
+Color Fusion Studio 1.1 adds two-sided projects, where the back face can use its own filament set, swapped at a pause. It also adds face-down printing, which picks up the texture of your build plate, and silhouette-shaped cards with an adjustable smooth border for images with a transparent background. A shared clear slot lets a full 8-colour project keep its clear top coat. This release also fixes colour areas that overlapped where pixels touch only at a corner, which could make the clear top layer print as rough bridging patches.
+
 ### November 3, 2026: Import & export your colour profiles, cleaner crop edges (V1.0.3)
 My Filaments now has import and export buttons for your colour profile files (.json), so you can back up your calibrations or move them to another computer. Cropping an image to the board size no longer leaves a thin white line along the edge of the print.
 
