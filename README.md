@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: Front and back on one canvas, key holes (V1.3.0)
+Two-sided projects now show the front and back side by side on one canvas, and pictures can be dragged between the faces. Cards can have a key hole from 2 to 8 mm that you drag into place: inside the card it is a plain hole, and past the edge a rounded tab grows out to hold it. Two-sided exports now work with the prime tower turned on, keep the back filament set within the AMS slots, and list the slot shared with the clear layer in the clear colour, so the filament mapping at print start picks the loaded spool.
+
 ### November 9, 2026: Two-sided prints, face-down printing & silhouette cards (V1.1.0)
 Color Fusion Studio 1.1 adds two-sided projects, where the back face can use its own filament set, swapped at a pause. It also adds face-down printing, which picks up the texture of your build plate, and silhouette-shaped cards with an adjustable smooth border for images with a transparent background. A shared clear slot lets a full 8-colour project keep its clear top coat. This release also fixes colour areas that overlapped where pixels touch only at a corner, which could make the clear top layer print as rough bridging patches.
 
