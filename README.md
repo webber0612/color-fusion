@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: Outline-card export fix (V1.3.5)
+Some outline-cut cards with a small sealed gap (for example between a character's legs) failed to produce a 3MF: when a pinched contour was split, the artwork hole could be attached to the small gap piece inside it. A hole now only belongs to an outer larger than itself. Also: an empty back face keeps its upload area, the clear-coat setting asks whether the clear filament takes its own slot, and the STEP 3 tip floats over the canvas.
+
 ### November 12, 2026: Cleaner outlines (V1.3.4)
 The outline border now extends past the canvas instead of being clipped, and its inner corners are rounded. Step 1 draws the same outline the model uses and shows the finished size. Edge pixels no longer blend into the white background, which removes the light ring around characters. Enclosed holes below the fill limit (100 mm² by default) are sealed in the outline colour; larger ones stay open with a thin lining.
 
