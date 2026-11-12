@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: Cleaner outlines (V1.3.4)
+The outline border now extends past the canvas instead of being clipped, and its inner corners are rounded. Step 1 draws the same outline the model uses and shows the finished size. Edge pixels no longer blend into the white background, which removes the light ring around characters. Enclosed holes below the fill limit (100 mm² by default) are sealed in the outline colour; larger ones stay open with a thin lining.
+
 ### November 12, 2026: Both faces on one canvas (V1.3.3)
 A double-sided card now shows its front and back rows, across every step, on one canvas. Zooming and panning move the whole layout together, and the card's size and shape can be changed while the back face is selected.
 
