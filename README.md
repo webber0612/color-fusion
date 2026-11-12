@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: Border filament (V1.3.7)
+With the outline cut on, the border width and its filament are one setting. The border is printed in the base spool, so choosing its filament locks the base; on double-sided pieces both faces' bases use it and the border matches. Automatic leaves the choice to the recipe search. The print guide picture carries the Color Fusion logo, and an empty face no longer clips its upload area.
+
 ### November 12, 2026: Print guide picture (V1.3.6)
 After the recipe search, Studio draws a print guide: every slot to load before printing with a colour swatch, then only the slots that change at each pause, plus how many times the piece pauses. It is shown in step 3, downloadable as PNG and included in the ZIP. On double-sided cards with a separate front set, filament used on both faces keeps its slot at the switch, so no spool moves between slots; only the slot numbering changes.
 
