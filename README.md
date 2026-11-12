@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: Several holes per card (V1.3.1)
+A card can now have up to eight holes, for example one at the top and one at the bottom to link cards into a chain. All holes share one diameter and edge width, and each hole is placed on its own: inside the card it is a plain opening, and outside the shape it grows its own ear.
+
 ### November 12, 2026: Front and back on one canvas, key holes (V1.3.0)
 Two-sided projects now show the front and back side by side on one canvas, and pictures can be dragged between the faces. Cards can have a key hole from 2 to 8 mm that you drag into place: inside the card it is a plain hole, and past the edge a rounded tab grows out to hold it. Two-sided exports now work with the prime tower turned on, keep the back filament set within the AMS slots, and list the slot shared with the clear layer in the clear colour, so the filament mapping at print start picks the loaded spool.
 
