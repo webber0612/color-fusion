@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: One-click outline cards (V1.3.2)
+Importing a picture with a transparent background now offers to cut the card along its outline, and the outline is its own switch under appearance settings. On two-sided pieces, the back view shows the outline mirrored, as the card looks when turned over, so back artwork lines up.
+
 ### November 12, 2026: Several holes per card (V1.3.1)
 A card can now have up to eight holes, for example one at the top and one at the bottom to link cards into a chain. All holes share one diameter and edge width, and each hole is placed on its own: inside the card it is a plain opening, and outside the shape it grows its own ear.
 
