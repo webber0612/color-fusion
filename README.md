@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 12, 2026: Both faces on one canvas (V1.3.3)
+A double-sided card now shows its front and back rows, across every step, on one canvas. Zooming and panning move the whole layout together, and the card's size and shape can be changed while the back face is selected.
+
 ### November 12, 2026: One-click outline cards (V1.3.2)
 Importing a picture with a transparent background now offers to cut the card along its outline, and the outline is its own switch under appearance settings. On two-sided pieces, the back view shows the outline mirrored, as the card looks when turned over, so back artwork lines up.
 
