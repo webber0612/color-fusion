@@ -100,6 +100,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 13, 2026: Border colour by recipe (V1.3.8)
+With the outline cut on, the border is now a colour instead of a filament. The colour joins the picture's palette, the recipe search mixes it from layered filaments, and the outline is filled with that recipe layer by layer, including where it reaches past the canvas. Its sides show the base colour. The separation step no longer starts on entry; it runs when the user presses Separate colours.
+
 ### November 12, 2026: Border filament (V1.3.7)
 With the outline cut on, the border width and its filament are one setting. The border is printed in the base spool, so choosing its filament locks the base; on double-sided pieces both faces' bases use it and the border matches. Automatic leaves the choice to the recipe search. The print guide picture carries the Color Fusion logo, and an empty face no longer clips its upload area.
 
