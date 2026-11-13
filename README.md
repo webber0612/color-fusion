@@ -121,6 +121,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 14, 2026: FOCUS round brush (V1.4.1)
+FOCUS marks areas with a round brush that keeps its size on screen, so zooming in paints finer areas. Click or drag to paint, right-click to erase, Ctrl+Z to undo the last stroke, and adjust the brush with the slider or the [ and ] keys. Ctrl+Z inside FOCUS no longer affects the canvas.
+
 ### November 13, 2026: Redesigned FOCUS (V1.4.0)
 FOCUS now opens a dialog above the page with the original and the predicted print side by side, front above back on double-sided pieces. Areas are marked by clicking points around them; the wheel zooms at the cursor, the middle button pans and Fit to window resets the view. Each face keeps its own areas: with a separate set per face they weigh only that face's recipe search, and with one shared set they map onto the right face.
 
