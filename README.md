@@ -19,20 +19,41 @@ You pick the spools you own, drop in a picture, and download a Bambu Studio proj
 ## Get started in three steps
 
 1. **Open [colorfusion.pegcanvas.com](https://colorfusion.pegcanvas.com)**. A short built-in tour shows you around.
-2. **Add your picture and set the printed size.** PNG, JPG, WebP or SVG.
-3. **Choose colours and filaments, check the preview, and download the 3MF.** Open it in Bambu Studio: plates, layer heights and filament slots are already set.
+2. **Add your picture and set the printed size.** PNG, JPG or SVG.
+3. **Choose colours and filaments, check the preview, and download the 3MF.** Open it in Bambu Studio: plates, layer heights and filament slots are already set. Pieces that pause for a filament change come with a print guide picture.
 
 ## Features
 
+**Colour**
+
 - **Smart filament picking:** tell Studio how many slots your printer has (2–32) and it chooses the best set from your shelf, then works out a 5-layer recipe for every colour in the picture.
-- **Colour separation up to 256 colours,** with a detail level you choose: from clean and simple to keeping single-pixel brushstrokes.
+- **Colour separation up to 256 colours,** with a detail level you choose: from clean and simple to keeping single-pixel brushstrokes. Adjust the settings first, then separate when you are ready.
+- **Mode A:** a second way of choosing filaments that can bring light colours and skin tones closer to the original on some pictures.
 - **Preview before you print:** see the predicted print side by side with your picture, with island count and filament changes.
 - **Printability optimisation:** fewer tiny "islands" for the printer to start and stop on, with an adjustable strength you can switch off.
 - **Exposure and black-point controls** for dark pictures.
+
+**Shapes and two-sided pieces**
+
+- **Cut along the outline:** turn a picture with a transparent background into a character card or key tag. Pick any border colour and width; the border is mixed from your filaments like the rest of the picture. Small gaps inside the shape are filled automatically.
+- **Key holes:** add one or more holes and drag them where you want.
+- **Two-sided prints:** a front and a back picture on one canvas, printed as one piece. Use one filament set for both faces, or give the front its own set; Studio plans the pauses and keeps shared spools in the same slots.
+- **Print guide:** a picture showing what to load before printing and which slots to change at each pause, with a colour swatch for every spool. It is shown in Studio and included in the download.
+
+**Finish**
+
 - **Clear top coat with ironing:** one transparent layer on top for a smooth, glossy finish.
+- **Face-down printing:** print the colour face against the build plate, so the plate gives it its finish with no ironing needed.
+
+**Your spools**
+
 - **Calibrate your own spools:** calibrate up to 62 spools on one SpoolCard plate set, photograph them, and Studio measures how each filament really mixes. Calibrated spools give the most faithful preview.
+- **Import and export colour profiles** to back them up or move them to another computer.
+
+**Everything else**
+
 - **Private by design:** all the maths runs on your computer. Your pictures are never uploaded.
-- **English and 繁體中文.**
+- **English, 繁體中文 and 简体中文.**
 
 ## Gallery
 
@@ -88,7 +109,7 @@ More models on [my MakerWorld page](https://makerworld.com/en/@user_3932360276/u
 
 ## Free, and yours
 
-- **Color Fusion Studio 1.0 is free.** No sign-up, no install.
+- **Color Fusion Studio is free.** No sign-up, no install.
 - **What you make is yours.** Recipes, 3MF files and prints belong to you. Share them, publish them, or sell them on Etsy, MakerWorld, Printables or at a craft fair. No royalties.
 - **Your pictures are your responsibility.** Make sure you have the right to print the images you use.
 - The web app itself is closed-source. Please don't mirror it or reverse-engineer it. The full terms are on the website.
