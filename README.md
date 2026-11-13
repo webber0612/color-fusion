@@ -121,6 +121,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 13, 2026: Redesigned FOCUS (V1.4.0)
+FOCUS now opens a dialog above the page with the original and the predicted print side by side, front above back on double-sided pieces. Areas are marked by clicking points around them; the wheel zooms at the cursor, the middle button pans and Fit to window resets the view. Each face keeps its own areas: with a separate set per face they weigh only that face's recipe search, and with one shared set they map onto the right face.
+
 ### November 13, 2026: Border colour by recipe (V1.3.8)
 With the outline cut on, the border is now a colour instead of a filament. The colour joins the picture's palette, the recipe search mixes it from layered filaments, and the outline is filled with that recipe layer by layer, including where it reaches past the canvas. Its sides show the base colour. The separation step no longer starts on entry; it runs when the user presses Separate colours.
 
