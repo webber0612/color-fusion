@@ -121,6 +121,9 @@ Questions, ideas and print photos are very welcome. Open an [Issue or Discussion
 <details>
 <summary>Development notes</summary>
 
+### November 14, 2026: PAINT tab (V1.5.0)
+STEP 3 has a PAINT tab, usable once a recipe search has run. Its pen, eraser and eyedropper paint onto a separate layer over the colour separation, saved in the .cfs project and kept when the picture is separated again; painted colours join the next recipe search. FOCUS is renamed Protect colours and lives in the same tab: protected areas keep their colour weighting and are left untouched by the printability optimisation, as are painted pixels. Tool buttons carry icons.
+
 ### November 14, 2026: FOCUS round brush (V1.4.1)
 FOCUS marks areas with a round brush that keeps its size on screen, so zooming in paints finer areas. Click or drag to paint, right-click to erase, Ctrl+Z to undo the last stroke, and adjust the brush with the slider or the [ and ] keys. Ctrl+Z inside FOCUS no longer affects the canvas.
 
